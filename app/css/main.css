@@ -1,0 +1,251 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=cyrillic,cyrillic-ext,latin);
+
+body{
+/*	background-color: yellow;*/
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+}
+.svg{
+	width: 100%;
+	top: 0;
+	-webkit-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.svg:hover{
+	position: relative;
+	top: -15px;
+}
+
+.svg-s{
+	width: 12%;
+}
+
+
+.preload{
+	background-image: url(../img/mainBackground.jpg);
+	width: 100%;
+/*background-attachment: fixed;
+background-position: top center;*/
+	background-size: cover;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+.main-nav{
+	width: 70%;
+	text-align: center;
+	border-bottom: 2px solid #ed6c56;
+	margin: 0 auto;
+}
+
+.main-nav a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 1% 2%;
+	font-size: 1.3em;
+	padding: 1.5% 0.5%;
+}
+
+.main-nav a:hover{
+	/*text-decoration: underline;*/
+	background-color: #ed6c56;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.logo{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.preload h1{
+	font-size: 5em;
+	font-weight: normal;
+	color: white;
+	padding: 8% 0;
+}
+
+.solve{
+	display: inline-block;
+	margin: 2% 2%;
+	width: 10%;
+}
+
+.solve span{
+	display: block;
+	font-size: 1.2em;
+	color: white;
+	margin-top: 10%;
+}
+
+/**************************************************/
+
+.advantages{
+	background-image: url(../img/advantages_background.png);
+	background-size: 100% 100%;
+/*	background-repeat: no-repeat;*/
+	width: 100%;
+	text-align: center;
+}
+
+.advantages h2{
+	font-size: 2.5em;
+	color: #008033;
+	padding: 2% 0;
+}
+
+.adv{
+	width: 80%;
+	border-bottom: 3px dotted green;
+	margin: 0 auto;
+}
+
+.adv:last-of-type{
+	border: hidden;
+}
+
+.adv img{
+	margin: 2% 0;
+}
+
+.adv span{
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #018732;
+}
+
+.adv p{
+	text-align: center;
+	padding: 1% 0 3% 0;
+}
+
+
+/**************************************************/
+
+.for-whom{
+	background-image: url(../img/for_whom_background.jpg);
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	height: 400px;
+}
+
+.for-whom h2{
+	font-size: 2em;
+	color: white;
+}
+
+.who{
+	display: inline-block;
+	margin: 2% 3%;
+/*	width: 15%;*/
+}
+
+.who img{
+	width: 70px;
+	height: 70px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.who span{
+	display: block;
+	color: white;
+	font-size: 1.2em;
+}
+
+/*****************************************************/
+
+.projects{
+	text-align: center;
+	width: 100%;
+}
+
+.projects h2{
+	background-color: #008033;
+	height: 40px;
+	line-height: 40px;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
+
+.example{
+	width: 400px;
+	height: 300px;
+/*	border: 2px solid grey;*/
+/*	border-radius: 10px;*/
+	float: left;
+	margin: 1% 1%;
+}
+
+.example img{
+	border-radius: 15px;
+}
+/****************************************************/
+
+.team{
+	text-align: center;
+}
+
+.team h2{
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+	font-size: 2em;
+	color: #008033;
+	text-align: center;
+	border-top: 3px dotted #008033;
+	border-bottom: 3px dotted #008033;
+}
+
+.members{
+	width: 200px;
+	height: 300px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	float: left;
+	margin: 1% 0;
+}
+
+/***************************************************/
+
+.contacts{
+	background-color: #008033;
+	text-align: center;
+	clear: both;
+}
+
+.contacts h2{
+	font-size: 2em;
+	color: white;
+}
+
+.contacts span{
+	display: block;
+	color: white;
+	font-size: 1.3em;
+}
+
+.mail{
+	width: 80%;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	margin: 2% auto;
+}
+
+.mail span{
+	display: inline-block;
+	margin: 1% 2%;
+}
+
+.copyright{
+	background-color: black;
+	color: white;
+	line-height: 30px;
+}
+

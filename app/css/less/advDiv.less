@@ -1,0 +1,104 @@
+
+.advantages{
+	background-image: url(../img/advBackground.jpg);
+	//background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+	
+	max-height: 1280px;/*Максимаильная шрина при больших разрешениях*/
+    min-height: 900px;/*Минимальная ширина при маленьких разрешениях*/
+    width: auto;/*Ширина в зависимости от разрешения экрана*/
+	//background-position: top center;
+	h2{
+		font-size: 2.5em;
+		color: #000;
+		padding: 2% 0;
+		text-align: center;
+		font-weight: 900;
+	}
+}
+
+.adv-container{
+	display: block;
+	position: relative;
+	width: 100%;
+	min-height: 770px;
+	overflow: hidden;
+}
+
+.adv-left-block{
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+
+	.adv{
+		float: right;
+		margin-right: 10px;
+	}
+}
+
+.adv-right-block{
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+
+	.adv{
+			float: left;
+			margin-left: 10px;
+		}
+}
+
+.adv{
+	position: relative;
+	width: 95%;
+	border: 2px solid @base;
+	margin-bottom: 20px;
+	min-height: 220px;
+	overflow: hidden;
+
+	img{
+		margin: 2% 0;
+		width: 90%;
+	}
+
+	span{
+		display: block;
+		font-size: 1.5em;
+		color: #ed6c56;
+		padding: 5%;
+		line-height: 1em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	p{
+		padding: 2%;
+		text-align: justify;
+		font-size: 1.1em;
+	}
+}
+
+.adv-icon{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	float: left;
+	width: 25%;
+	background: @base;
+	text-align: center;
+
+	.svg-s{
+		padding: 33% 0;
+	}
+}
+
+.adv-text{
+	float: right;
+	width: 75%;
+	text-align: center;
+}
+
+
