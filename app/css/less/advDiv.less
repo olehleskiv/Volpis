@@ -6,10 +6,10 @@
 	background-size: cover;
 	width: 100%;
 	background-attachment: fixed;
-	
-	max-height: 1280px;/*Максимаильная шрина при больших разрешениях*/
-    min-height: 900px;/*Минимальная ширина при маленьких разрешениях*/
-    width: auto;/*Ширина в зависимости от разрешения экрана*/
+
+	min-height: 900px;
+	width: auto;
+	overflow: hidden;
 	//background-position: top center;
 	h2{
 		font-size: 2.5em;
@@ -22,10 +22,8 @@
 
 .adv-container{
 	display: block;
-	position: relative;
 	width: 100%;
 	min-height: 770px;
-	overflow: hidden;
 }
 
 .adv-left-block{
@@ -59,8 +57,7 @@
 	overflow: hidden;
 
 	img{
-		margin: 2% 0;
-		width: 90%;
+		width: 100%;
 	}
 
 	span{
@@ -89,10 +86,6 @@
 	width: 25%;
 	background: @base;
 	text-align: center;
-
-	.svg-s{
-		padding: 33% 0;
-	}
 }
 
 .adv-text{
