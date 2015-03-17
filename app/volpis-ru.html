@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Volpis studio</title>
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/result.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+	<link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css" />
+</head>
+
+	<div class="preload">
+		<nav class="main-nav">
+			<a href="#advanteges">Преимущества</a>
+			<a href="#for-whom">Для кого</a>
+			<a href="#projects">Проекты</a>
+			<a href="#team">О нас</a>
+			<a href="#contacts">Контакты</a>
+		</nav>
+
+		<div class="logo">
+			<img src="img/logo.png" alt="Volpis">
+		</div>
+		
+		<header>
+			<h1>Быстро, профессионально, креативно</h1>
+			<h2>разрабатываем современные мобильные приложения!</h2>
+		</header>
+
+		<p id="success-text">Спасибо, что выбрали нас! Мы свяжемся с вами в течение 12 часов!</p>
+
+<!-- ------------------------------------------------------------------------------------------------ -->
+		<div id="page">
+			<a href="#" id="modal_open" class="button">ЗАКАЗАТЬ РАЗРАБОТКУ</a>
+		</div>
+
+
+		<div class="modal-overlay" id="modal_window" aria-hidden="true" role="dialog" aria-labelledby="modal_title">
+
+			<div class="modal-content" id="modal_holder" role="document">
+				<span class="modal_title">Заказать разработку</span>
+
+				<form enctype="multipart/form-data" method="post" id="hidden-form">
+					<p><input type="text" id="h-name" name="name" placeholder="Iмя" required/></p>
+					<p><input type="email" id="h-email" name="email" placeholder="E-mail" required/></p>
+					<p><input type="tel" id="h-tel" name="tel" placeholder="Телефон" required/></p>
+					<p><textarea rows="10" cols="45" name="message" id="h-text" class="text" placeholder="Введите ваше сообщение" required></textarea></p>
+
+					<a href="#" id="h-attach-button" class="button">Прикрепить файл ТЗ</a>
+					<!-- <a href="#" class="button" id="h-submit">Замовити<a/> -->
+					<input type="submit" class="button" id="h-submit" value="Замовити" />
+					
+					<div id="h-attach-block" class="attach-block" style="display:none;">
+						<span class="attach-block-title">Прикрепить файл ТЗ</span>
+						<p><input type="file" name="file" id="h-file"></p>
+						<a href="#" id="h-attach-ok" class="button attach-ok">Прикрепить</a>
+						<a href="#" id="h-attach-cancel" class="button attach-cancel">Отмена</a>
+					</div>
+				</form>
+
+				<button class="btn-close" id="modal_close" type="button" aria-label="close">
+					&times;
+				</button>
+
+			</div> <!-- end .modal-content -->
+		</div> <!-- end .modal-overlay -->
+
+<!-- ------------------------------------------------------------------------------------------------ -->
+
+
+
+		<div class="solve">
+			<img src="img/android.svg" class="svg" alt="Android applications">
+			<span>Android</span>
+		</div>
+		<div class="solve">
+			<img src="img/ios.svg" class="svg" alt="iOS applications">
+			<span>iOS</span>
+		</div>
+		<div class="solve">
+			<img src="img/web.svg" class="svg" alt="Web applications">
+			<span>Web</span>
+		</div>
+		<div class="solve">
+			<img src="img/server.svg" class="svg" alt="Server side">
+			<span>Server</span>
+		</div>
+		<div class="solve">
+			<img src="img/design-01.svg" class="svg" alt="UI design">
+			<span>UI design</span>
+		</div>
+
+	</div>
+
+	<a name="advanteges"></a>
+	<div class="advantages">
+		<h2>Преимущества</h2>
+		<div class="adv-container">
+		<div class="adv-left-block">
+			<div class="adv">
+				<div class="adv-icon">
+					<img src="img/Perevagy_1.svg" class="svg-s" alt="Збільшення продаж">
+				</div>
+				<div class="adv-text">
+					<span>Увеличение продаж</span>
+					<p>Сейчас абсолютно все пользуются смартфонами, а мобильные приложения - позволяют в легкой, мобильной и понятной форме предлагать Ваши товары и услуги потенциальным клиентам.</p>
+				</div>
+			</div>
+
+			<div class="adv">
+				<div class="adv-icon">
+					<img src="img/Perevagy_3.svg" class="svg-s" alt="Зменшення витрат">
+				</div>
+				<div class="adv-text">
+					<span>Сокращение расходов</span>
+					<p>Чтобы сообщить клиентов об акциях и специальных предложениях можно не тратить средства на дорогостоящую рекламу. Приложения имеют встроенную функцию - Push-уведомления. С их помощью абсолютно каждый клиент получит Вашу информацию мгновенно и бесплатно.</p>
+				</div>
+			</div>
+
+			<div class="adv">
+				<div class="adv-icon">
+					<img src="img/Perevagy_5.svg" class="svg-s" alt="Збільшення кількості клієнтів">
+				</div>
+				<div class="adv-text">
+					<span>Увеличение числа постоянных покупателей</span>
+					<p>С помощью мобильных приложений можно постоянно увеличивать целевую аудиторию; реклама, сарафанное радио - все это, а также многие другие методы позволяют постоянно получать новых клиентов.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="adv-right-block">
+			<div class="adv">
+				<div class="adv-icon">
+					<img src="img/Perevagy_2.svg" class="svg-s" alt="Імідж та впізнаваність компанії">
+				</div>
+				<div class="adv-text">
+					<span>Увеличение чистого дохода</span>
+					<p>За мобильными приложениями будущее! А это значит, что перед Вами перспективный инструмент для увеличения прибыли от своего бизнеса.</p>
+				</div>
+			</div>
+
+			<div class="adv">
+				<div class="adv-icon">
+					<img src="img/Perevagy_4.svg" class="svg-s" alt="Перевага над конкурентами">
+				</div>
+				<div class="adv-text">
+					<span>Преимущество над конкурентами</span>
+					<p>Мало компаний понимают все преимущества мобильных приложений У Вас есть все шансы переманить клиентов на свою сторону, предоставляя им дополнительные возможности, специальные акции и предложения через мобильное приложение.</p>
+				</div>
+			</div>
+
+			<div class="adv">
+				<div class="adv-icon">
+					<img src="img/Perevagy_6.svg" class="svg-s" alt="Збільшення числа постійних покупців">
+				</div>
+				<div class="adv-text">
+					<span>Улучшение имиджа компании</span>
+					<p>Без мобильного приложения, Вы можете показаться устаревшим и отставшим от современных тенденций. А это поставит под сомнение будущее Вашего бизнеса.</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+	<a name="for-whom"></a>
+	<div class="for-whom">
+		<h2>Для кого</h2>
+		<div class="who">
+			<img src="img/startups.svg" alt="Стартапи">
+		</div>
+		<div class="who">
+			<img src="img/digital-agencies.svg" alt="Цифрові агенції">
+		</div>
+		<div class="who">
+			<img src="img/software_agencies.svg" alt="Агенції програмного забезпечення">
+		</div>
+		<div class="who">
+			<img src="img/hr_agencies.svg" alt="HR - агенції">
+		</div>
+		<br>
+		<span>Стартапы</span>
+		<span>Цифровые агентства</span>
+		<span>Агентства программного обеспечения</span>
+		<span>HR - агентства</span>
+	</div>
+
+	<div id="elastic_grid_demo"></div>
+	<!-- <div class="projects">
+		<h2>Проекти</h2>
+		<div class="example"><img src="img/projects/1.jpg" alt="1" width="400" height="300"></div>
+		<div class="example"><img src="img/projects/2.jpg" alt="2" width="400" height="300"></div>
+		<div class="example"><img src="img/projects/3.jpg" alt="3" width="400" height="300"></div>
+		<div class="example"><img src="img/projects/4.jpg" alt="4" width="400" height="300"></div>
+		<div class="example"><img src="img/projects/5.jpg" alt="5" width="400" height="300"></div>
+		<div class="example"><img src="img/projects/6.jpg" alt="6" width="400" height="300"></div>
+	</div>
+	-->
+	
+	<div class="process">
+		<h2>Процесс разработки</h2>
+		<img src="img/scheme.jpg" alt="Схема розробки">
+	</div>
+
+	<a name="team"></a>
+	<div class="team">
+		<h2>Наша команда</h2>
+		<div class="members-container">
+			<div class="members"><img src="img/team/1.jpg" alt="">
+				<span>Олег</span>
+				<p>Разработчик приложений под платформу Android</p>
+			</div>
+			<div class="members"><img src="img/team/5.jpg" alt="">
+				<span>Костя</span>
+				<p>Разработчик приложений под платформу Android</p>
+			</div>
+			<div class="members"><img src="img/team/3.jpg" alt="">
+				<span>Юра</span>
+				<p>Разработчик приложений под платформу iOS</p>
+			</div>
+			<div class="members"><img src="img/team/4.jpg" alt="">
+				<span>Толик</span>
+				<p>Разработчик серверной части сайтов</p>
+			</div>
+			<div class="members"><img src="img/team/2.jpg" alt="">
+				<span>Кристина</span>
+				<p>Дизайнер</p>
+			</div>
+			<div class="members"><img src="img/team/1.jpg" alt="">
+				<span>Вы</span>
+				<p>У нас есть вакансии</p>
+			</div>
+		</div>
+
+		<div class="about-team">
+			<blockquote>
+			Mолодая команда амбициозных людей, которые каждый день покоряют новые вершины! Мы появились на рынке сравнительно недавно и успели зарекомендовать себя как надежный партнер среди наших клиентов.
+			<br>
+			Мы ценим время клиента. Мы не предлагаем несколько решений - мы предлагаем лучшее!
+			</blockquote>
+		</div>
+<!-- 		<div class="corner"></div> -->
+	</div>
+
+
+	<div class="order-form">
+		<form action="mail-attachment.php" method="post" id="main-form">
+			<div class="order-contacts">
+				<label for="name">Ваше имя</label>
+				<p>
+					<input type="text" id="name" name="name" class="name" placeholder="Введите ваше имя" maxlength="36" required>
+				</p>
+
+				<label for="email">Ваша электронная почта</label>
+				<p>
+					<input type="email" id="email" name="email" class="email" placeholder="Ваша электронная почта" maxlength="36" required>
+				</p>
+
+				<label for="tel">Контактный номер телефона</label>
+				<p>
+					<input type="tel" id="tel" name="tel" class="tel" placeholder="Ваш номер телефона" maxlength="20" required>
+				</p>
+			</div>
+
+			<div class="order-message">
+				<label for="text">Ваше сообщение</label>
+				<p><textarea rows="10" cols="45" name="message" id="text" class="text" placeholder="Введите ваше сообщение" required></textarea></p>
+				<a href="#" id="attach-button" class="attach-button"></a>
+				<input type="submit" class="button" id="submit" value="Заказать разработку">
+
+				<div id="attach-block" class="attach-block" style="display:none;">
+					<span>Прикрепить файл ТЗ</span>
+					<p><input type="file" name="file" id="file"></p>
+					<a href="#" id="attach-ok" class="button attach-ok">Прикрепить</a>
+					<a href="#" id="attach-cancel" class="button attach-cancel">Отмена</a>
+				</div>
+			</div>
+		</form>
+		<p id="success-text">Спасибо, что выбрали нас! Мы свяжемся с вами в течение 12 часов!</p>
+	</div>
+
+
+	<a name="contacts"></a>
+	<div class="contacts">
+		<div class="contact-container">
+			<h2>Контакты</h2>
+			<div class="adress">
+				<span>ул. Лазаренко 2, офис 5</span>
+				<span>Львов, Украина</span>
+				<span>+38 (063) 123 45</span>
+			</div>
+			<div class="mail">
+				<img src="" alt=""><span>volpis.info@gmail.com</span>
+				<img src="" alt=""><span>kostya_1992</span>
+			</div>
+		</div>
+
+		<!-- <div class="triangle-topleft"> -->
+
+		</div>
+
+		<!-- <div class="map-container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1287.2428350970686!2d24.01941145000001!3d49.81453644999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae792a53f67a1%3A0xe3c9575c6aa35178!2z0LLRg9C7LiDQkNC60LDQtNC10LzRltC60LAg0JvQsNC30LDRgNC10L3QutCwLCAyLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1409303665654" 
+			width="400" 
+			height="300" 
+			frameborder="0" 
+			style="border:0; background: transparent url(img/projects/pattern.png) repeat top left;" >
+			</iframe>
+		</div> -->
+		
+		<div class="social"></div>
+		<div class="copyright">Volpis 2014</div>
+	</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/order-forms.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/elastic_grid.min.js"></script>
+<script src="js/portfolio.js"></script>
+
+
+</body>
+</html>
+
+
+
