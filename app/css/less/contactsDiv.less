@@ -1,5 +1,4 @@
 .contacts{
-	//background-color: #000;
 	text-align: left;
 	clear: both;
 
@@ -13,42 +12,28 @@
 
 .contact-container,
 .map-container{
-	min-height: 300px;
+	height: 300px;
+	width: 40%;
+	float: left;
 }
 
 .contact-container{
-	width: 100%;
-	float: left;
 	background-color: @contr;
-	//position: relative;
+	width: 60%;
+	position: relative;
 
-// 	&:before{
-// 		content: '';
-// 		position: absolute;
-// border: 149px solid transparent;
-// border-left: 149px solid green;
-// border-top: 149px solid green;
-// 		z-index: 3;
-// 		right: 18%;
-// 	}
+	&:after{
+		content: '';
+		position: absolute;
+		border: 149px solid transparent;
+		border-left: 149px solid @contr;
+		border-top: 149px solid @contr;
+		z-index: 3;
+		top: 0;
+		right: -149px * 2;
+	}
 }
 
-
-
-// .triangle-topleft{
-// 	width: 0; 
-// 	height: 0; 
-// 	border: 200px solid transparent;
-// 	border-left: 100px solid green; 
-// 	border-top: 100px solid green;
-// 	float: left;
-// }
-
-// .map-container{
-// 	width: 35%;
-// 	background-color: yellow;
-// 	float: left;
-// }
 .contacts span{
 	display: block;
 	color: white;
