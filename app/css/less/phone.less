@@ -1,0 +1,133 @@
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	
+}
+
+/* Landscape */
+@media screen and (max-width: 360px) {
+// and (device-height: 640px) 
+// and (-webkit-device-pixel-ratio: 3) 
+// and (orientation: landscape)
+	body{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	img{
+		max-width: 100%;
+	}
+	.main-nav {
+		a{
+			display: block;
+			background-color: #ed6c56;
+			.touch &:active {
+				background-color: #ed6c56;
+				border-radius: 5px;
+				color: #fff;
+			}
+		}
+	}
+	.logo img {
+		width: 30%;
+	}
+	.preload {
+		h1, h2{
+			font-size: 1.5em;
+		}
+	}
+
+	.button{
+		width: 80%;
+		font-size: 1.2em;
+		.touch &:active {
+			border-radius: 5px;
+		}
+	}
+	.modal-overlay {
+		padding: 10px 0;
+	}
+	.modal-content{
+		max-width: 100%;
+		.modal_title{
+			font-size: 1.3em;
+		}
+		textarea{
+			height: 100px;
+		}
+		.button{
+			display: block;
+			float: left;
+			margin: 0 2%;
+			&:first-of-type{
+				margin-left: 20px;
+			}
+		}
+		.attach-block {
+			position: absolute;
+			margin-top: 63px;
+			margin-left: 26px;
+			width: 80%;
+		}
+	}
+
+	.solve {
+		width: 30%;
+	}
+
+	.advantage-left-block, .advantage-right-block{
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.who{
+		width: 50%;
+	}
+
+	.for-whom {
+		span{
+			display: none;
+		}
+	}
+	.members{
+		width: 80%;
+	}
+
+	.about-team{
+		font-size: 1.1em;
+		&:before{
+			font-size: 3em;
+		}
+		&:after{
+			font-size: 3em;
+		}
+	}
+	.order-contacts, .order-message{
+		width: 90%;
+		float: none;
+		padding-left: 10%;
+	}
+	.order-contacts input[type=email], 
+	.order-contacts input[type=tel], 
+	.order-contacts input[type=text], 
+	.order-contacts textarea, 
+	.order-message textarea {
+		width: 100%;
+		font-size: 0.8em;
+		margin-bottom: 0;
+		padding-left: 60px;
+	}
+	.order-message input[type=submit]{
+		width: 70%;
+		font-size: 1em;
+	}
+	.contact-container,.map-container {
+		width: 100%;
+	}
+	.mail {
+		margin-top: 40px;
+	}
+}
